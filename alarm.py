@@ -28,12 +28,12 @@ def set_alarm(self):
                 font=("times new roman",20))
         
                 self.hour_var = StringVar()
-                self.hour_combo = ttk.Combobox(self.alarm_window, 
+                self.hour_combo = Tk.Combobox(self.alarm_window, 
                 width=10, height=10, textvariable=self.hour_var, 
                 font=("times new roman",15))
         
                 self.minute_var = StringVar()
-                self.minute_combo = ttk.Combobox(self.alarm_window, 
+                self.minute_combo = Tk.Combobox(self.alarm_window, 
                 width=10, height=10, textvariable=self.minute_var, 
                 font=("times new roman",15))
                 
@@ -41,7 +41,7 @@ def set_alarm(self):
                 font=("times new roman",20))
         
                 self.ringtone_var = StringVar()
-                self.ringtone_combo = ttk.Combobox(self.alarm_window, 
+                self.ringtone_combo = Tk.Combobox(self.alarm_window, 
                 width=15, height=10, textvariable=self.ringtone_var, 
                 font=("times new roman",15))
                 
